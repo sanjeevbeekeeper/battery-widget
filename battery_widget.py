@@ -12,6 +12,8 @@ import time
 import tkinter as tk
 import psutil
 
+VERSION = "1.0.0"   # bump this for every release (shown at the bottom of the Settings window)
+
 # ---- Customize here ----------------------------------------------------
 HIGH_LIMIT = 80    # while charging: turn red at or above this %
 LOW_LIMIT = 20     # while unplugged: turn red at or below this %
@@ -609,7 +611,7 @@ def open_settings():
     bar.pack(fill="x", padx=24, pady=(14, 0))
     FlatButton(bar, "Save", save, primary=True).canvas.pack(side="right")
     FlatButton(bar, "Cancel", win.destroy).canvas.pack(side="right", padx=(0, 8))
-    _label(win, "Created by Sanjeev Beekeeper", fg="#5f5f5f", size=8).pack(pady=(14, 14))
+    _label(win, f"v{VERSION}  ·  Created by Sanjeev Beekeeper", fg="#5f5f5f", size=8).pack(pady=(14, 14))
 
     # size the window to fit its rows, centre it on the main (1st) monitor, then show it
     win.update_idletasks()
