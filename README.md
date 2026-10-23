@@ -6,13 +6,17 @@ and recharge before the battery runs low.
 
 ## Screenshots
 
+Desktop screenshot
+
+![Widget Placement](docs/images/widget-placement.png)
+
 | Charging                                                                                           | Charge limit reached                                                                                       | On battery                                                                                     |
 |:--------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
 | <img src="docs/images/widget-charging.png" width="220" alt="Widget while charging, shown in blue"> | <img src="docs/images/widget-warning.png" width="220" alt="Widget in red after reaching the charge limit"> | <img src="docs/images/widget-battery.png" width="220" alt="Widget on battery, shown in green"> |
 
-| Settings                                                                                        | Right-click menu                            |
-|:-----------------------------------------------------------------------------------------------:|:-------------------------------------------:|
-| <img src="docs/images/settings.png" width="300" alt="Settings window with sliders and toggles"> | ![Widget Menu](docs/images/widget-menu.png) |
+| Settings                                                                                                                     | Right-click menu                            |
+|:----------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:|
+| <img title="" src="docs/images/settings.png" alt="Settings window with sliders and toggles" width="380" data-align="left" /> | ![Widget Menu](docs/images/widget-menu.png) |
 
 ## Features
 
