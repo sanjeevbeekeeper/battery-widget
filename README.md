@@ -10,9 +10,9 @@ and recharge before the battery runs low.
 |:--------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
 | <img src="docs/images/widget-charging.png" width="220" alt="Widget while charging, shown in blue"> | <img src="docs/images/widget-warning.png" width="220" alt="Widget in red after reaching the charge limit"> | <img src="docs/images/widget-battery.png" width="220" alt="Widget on battery, shown in green"> |
 
-| Settings                                                                                        | Right-click menu                                                                                                                                                                    |
-|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="docs/images/settings.png" width="300" alt="Settings window with sliders and toggles"> | <img title="" src="file:///D:/localhost/quick-references/pages/laptop-widgets/battery-percentage/docs/images/menu.png" alt="Right-click menu with Settings and Quit" width="180" /> |
+| Settings                                                                                        | Right-click menu                            |
+|:-----------------------------------------------------------------------------------------------:|:-------------------------------------------:|
+| <img src="docs/images/settings.png" width="300" alt="Settings window with sliders and toggles"> | ![Widget Menu](docs/images/widget-menu.png) |
 
 ## Features
 
