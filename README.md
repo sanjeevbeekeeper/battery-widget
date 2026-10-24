@@ -1,22 +1,18 @@
-# Battery Widget
+# Battery Widget (Lite)
 
-A tiny always-on-top battery overlay for Windows. It shows whether you are plugged in, a charging
+The free Lite edition of a tiny always-on-top battery overlay for Windows. It shows whether you are plugged in, a charging
 progress bar, and turns red when you cross your own limits, so you remember to unplug at 80%
 and recharge before the battery runs low.
 
 ## Screenshots
 
-Desktop screenshot
-
-![Widget Placement](docs/images/widget-placement.png)
-
 | Charging                                                                                           | Charge limit reached                                                                                       | On battery                                                                                     |
 |:--------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
 | <img src="docs/images/widget-charging.png" width="220" alt="Widget while charging, shown in blue"> | <img src="docs/images/widget-warning.png" width="220" alt="Widget in red after reaching the charge limit"> | <img src="docs/images/widget-battery.png" width="220" alt="Widget on battery, shown in green"> |
 
-| Settings                                                                                                                     | Right-click menu                            |
-|:----------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:|
-| <img title="" src="docs/images/settings.png" alt="Settings window with sliders and toggles" width="380" data-align="left" /> | ![Widget Menu](docs/images/widget-menu.png) |
+| Settings                                                                                        | Right-click menu                                                                                             |
+|:-----------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
+| <img src="docs/images/settings.png" width="300" alt="Settings window with sliders and toggles"> | <img title="" src="docs/images/widget-menu.png" alt="Right-click menu with Settings and Quit" width="180" /> |
 
 ## Features
 
@@ -31,6 +27,20 @@ Desktop screenshot
   - Choose which monitor to use (shown only when 2 or more screens are connected)
   - Start with Windows
 - Drag to move. Single instance: a second copy closes itself.
+
+## Lite and Pro
+
+|                                               | Lite (this repo) | Pro         |
+| --------------------------------------------- |:----------------:|:-----------:|
+| Charging status, progress bar and timer       | Yes              | Yes         |
+| Custom low alert and charge limit             | Yes              | Yes         |
+| Placement, monitor choice, start with Windows | Yes              | Yes         |
+| Themes and animation packs                    | -                | Coming soon |
+| In-app update check                           | -                | Coming soon |
+| Company licence and deployment support        | -                | Yes         |
+| Priority support                              | -                | Yes         |
+
+Interested in Pro or a company licence? Contact:  sanjeevramanathan@proton.me
 
 ## How it works
 
@@ -112,6 +122,10 @@ remember-placement choice. Delete it to return to the defaults.
 ## Defaults
 
 Edit the values at the top of `battery_widget.py` (`HIGH_LIMIT`, `LOW_LIMIT`, `MONITOR`, `WIDTH`, `HEIGHT`).
+
+## License
+
+Released under the [PolyForm Noncommercial License 1.0.0](LICENSE). You may use, change and share it for noncommercial purposes. Commercial use, including use inside a company, requires the Pro licence.
 
 ---
 
