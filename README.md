@@ -6,9 +6,13 @@ and recharge before the battery runs low.
 
 ## Screenshots
 
-| Charging                                                                                           | Charge limit reached                                                                                       | On battery                                                                                     |
-|:--------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
-| <img src="docs/images/widget-charging.png" width="220" alt="Widget while charging, shown in blue"> | <img src="docs/images/widget-warning.png" width="220" alt="Widget in red after reaching the charge limit"> | <img src="docs/images/widget-battery.png" width="220" alt="Widget on battery, shown in green"> |
+**How it looks**
+
+![Widget while charging, shown in blue](docs/images/widget-placement.png)
+
+| Charge limit reached                                                                                       | On battery                                                                                     |
+|:----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
+| <img src="docs/images/widget-warning.png" width="220" alt="Widget in red after reaching the charge limit"> | <img src="docs/images/widget-battery.png" width="220" alt="Widget on battery, shown in green"> |
 
 | Settings                                                                                        | Right-click menu                                                                                             |
 |:-----------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
